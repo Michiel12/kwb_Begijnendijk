@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 22px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    background-color: #A6035D;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #780143;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+main img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.persoon {
+    height: 500px;
+    width: 250px;
+}
+
+.link {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.link:hover {
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+.jaarprogramma {
+    display: flex;
+}
+
+.maand {
+    width: 30%;
+    text-align: center;
+}
+
+.activiteit {
+    width: 60%;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+
+    img {
+        height: auto;
+        width: 250px;
+    }
+
+    .persoon {
+        height: 500px;
+        width: 250px;
+    }
+
+    .jaarprogramma {
+        display: block;
+    }
+
+    .maand {
+        width: 30%;
+        text-align: left;
+    }
+
+    .activiteit {
+        width: 100%;
+        margin: 0;
+    }
+}
